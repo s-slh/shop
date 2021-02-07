@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+body
+{
+  background-image: linear-gradient(#e4e3d5, #E3D9B2 , #bfffcd );
+}
+.navbar
+{
+	background-color: none;
+}
+/*#navbarContent
+{
+	display: flex;
+	justify-content: flex-end;
+}*/
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item-active .nav-link:hover
+{
+    color: #25c5d8;
+    font-weight: bold;
+}
+.container-fluid
+{	
+	background-image: url(images/home1-min.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size:1.3em; 
+}
+.card-img-top
+{
+	height: 400px !important;
+	object-fit: cover !important;
+	object-position: bottom !important;
+}
+.footer
+{
+	background-color: #fbe9e7;
+}
+.bi-person-square:hover
+{
+	color: #25c5d8;
+}
+
+/*     18. Back To Top Button     */
+/**********************************/
+.back-to-top {
+    position: fixed;
+    right: 1.4rem;
+    bottom: 5.5rem;
+}
+
+a:hover.back-to-top {
+    background-color: #85c9e8;
+}
+/***************************/
+/* swiper css */
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 100%;
+      object-fit: cover;
+    }
+/*****************************/
